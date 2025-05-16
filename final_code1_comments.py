@@ -18,6 +18,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import ticker
+import io
 
 
 
@@ -1271,11 +1272,6 @@ def display_expense_transactions(month, data, expense_categories):
 
     return total_expense
 
-import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import io
 
 def view_transactions():
     st.subheader("📒 Complete Transaction History")
